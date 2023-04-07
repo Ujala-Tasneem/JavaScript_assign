@@ -1,8 +1,8 @@
 // 1. Write a JavaScript program that accepts two numbers in two prompts and
 // displays the larger one in the console.
 
-let num1 = prompt("Enter first number");
-let num2 = prompt("Enter second number");
+let num1 = +prompt("Enter first number");
+let num2 = +prompt("Enter second number");
 
 if (num1 > num2) {
     console.log(num1);
@@ -19,7 +19,7 @@ if (num1 > num2) {
 // Sample: -5
 // Output : The sign is -
 
-let num = prompt("Enter a number");
+let num = +prompt("Enter a number");
 if (num > 0) {
     alert("The sign is +");
 } else if (num < 0) {
