@@ -6,11 +6,10 @@ let num2 = +prompt("Enter second number");
 
 if (num1 > num2) {
     console.log(num1);
-} else if (num2 > num1) {
+} else {
     console.log(num2);
-}else {
-    console.log("Both numbers are equal");
 }
+
 
 // Write a JavaScript conditional statement to find the sign of a number. Display
 // an alert box with the specified sign.
